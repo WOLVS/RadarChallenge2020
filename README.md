@@ -40,7 +40,7 @@ RadarChallenge 2020 @ chongqi, Nov, 2020
   	-example1: ".txt'
 	
 	         gener_spectrum1 1 0.92 
-		 gener_spectrum1 2 0.98G
+		 gener_spectrum1 2 0.98
 		 gener_spectrum1 3 0.43
 		 gener_spectrum1 4 0.20
 		 gener_spectrum1 5 0.00
