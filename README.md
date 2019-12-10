@@ -15,7 +15,8 @@ RadarChallenge 2020 @ chongqi, Nov, 2020
   
   	`` <spectrumDiagram classification name> <class_name> <confidence>  ``
   		
-  	''example1: ".txt"
+  	  -example1: ".txt"
+	
                1_December_2017 Dataset1P36A01R01 1 0.92	       
   	       1_December_2017 Dataset1P36A01R01 2 0.98	       
   	       1_December_2017 Dataset1P36A01R01 3 0.43	       
