@@ -1,5 +1,5 @@
 # RadarChallenge2020 team
-Radar challenge 2020 @ chongqi, Nov, 2020
+RadarChallenge 2020 @ chongqi, Nov, 2020
 
 
 ### Submission Styles
@@ -15,13 +15,13 @@ Radar challenge 2020 @ chongqi, Nov, 2020
   
   	`` <spectrumDiagram classification name> <class_name> <confidence>  ``
   		
-  	example1: ".txt'
-  	       1_December_2017 Dataset1P36A01R01 1 0.92 
-  	       1_December_2017 Dataset1P36A01R01 2 0.98
-  	       1_December_2017 Dataset1P36A01R01 3 0.43
-  	       1_December_2017 Dataset1P36A01R01 4 0.20
+  	''example1: ".txt"
+               1_December_2017 Dataset1P36A01R01 1 0.92	       
+  	       1_December_2017 Dataset1P36A01R01 2 0.98	       
+  	       1_December_2017 Dataset1P36A01R01 3 0.43	       
+  	       1_December_2017 Dataset1P36A01R01 4 0.20	       
   	       1_December_2017 Dataset1P36A01R01 5 0.00
-  	       1_December_2017 Dataset1P36A01R01 6 0.00 
+	       1_December_2017 Dataset1P36A01R01 6 0.00 
  ### class name vs numbering
  - class 1: walk back/forth
  - class 2: sit on a chair
@@ -29,23 +29,21 @@ Radar challenge 2020 @ chongqi, Nov, 2020
  - class 4: bend down
  - class 5: bend up
  - class 6: stand and drink from cup
- 
- 
-  	Tips:
+   	Tips:
   		
   	- make sure seperated the coloum using a space
   
 - generalisation tasks - format in **generalisation_results.txt**
 
-  `` <class_name> <confidence>  ``
+  `` <spectrumDiagram classification name> <class_name> <confidence>  ``
   		
   	example1: ".txt'
-  	         gener_spectrum1 1	0.92 
-  	         gener_spectrum1 2	0.98
-  	         gener_spectrum1 3 0.43
-  	         gener_spectrum1 4 0.20
-  	         gener_spectrum1 5 0.00
-  	         gener_spectrum1 6 0.00 
+	         gener_spectrum1 1 0.92 
+		 gener_spectrum1 2 0.98
+		 gener_spectrum1 3 0.43
+		 gener_spectrum1 4 0.20
+		 gener_spectrum1 5 0.00
+		 gener_spectrum1 6 0.00 
  ### class name vs numbering
  - class 1: walk back/forth
  - class 2: sit on a chair
@@ -63,7 +61,7 @@ Tips:
 
 1. **Radar Challenge Classification Task**
 	- average AP mAP=1/N  ∑[AP]_i
-	Refer to paper XXXX for caculate AP 
+	*Refer to paper XXXX for understand how to caculate AP 
 2. **Radar Challenge Generalization Task**
 	- Deviation score per class above or below tolerance (+/-5%) will be reported
 		**Highest mAP with lowest deviation score will be declared winner of this sub-challenge***
