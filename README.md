@@ -11,7 +11,7 @@ RadarChallenge 2020 @ chongqi, Nov, 2020
 	
 
   
-- classification task - format in  **classification_results.txt**
+ ### Classification task - format in  **classification_results.txt**
   
   	`` <spectrumDiagram classification name> <class_name> <confidence>  ``
   		
@@ -26,21 +26,21 @@ RadarChallenge 2020 @ chongqi, Nov, 2020
  - class 1: walk back/forth
  - class 2: sit on a chair
  - class 3: stand up
- - class 4: bend down
- - class 5: bend up
- - class 6: stand and drink from cup
+ - class 4: bend downC
+ - class 5: drink from cup while standing
+ - class 6: frontal fall
    	Tips:
   		
   	- make sure seperated the coloum using a space
   
-- generalisation tasks - format in **generalisation_results.txt**
+ ### Generalisation tasks - format in **generalisation_results.txt**
 
   `` <spectrumDiagram classification name> <class_name> <confidence>  ``
   		
   	-example1: ".txt'
 	
 	         gener_spectrum1 1 0.92 
-		 gener_spectrum1 2 0.98
+		 gener_spectrum1 2 0.98G
 		 gener_spectrum1 3 0.43
 		 gener_spectrum1 4 0.20
 		 gener_spectrum1 5 0.00
@@ -50,13 +50,12 @@ RadarChallenge 2020 @ chongqi, Nov, 2020
  - class 2: sit on a chair
  - class 3: stand up
  - class 4: bend down
- - class 5: bend up
- - class 6: stand and drink from cup
+ - class 5: drink from cup while standing
+ - class 6: frontal fall
 
 Tips:
   		
-  	- make sure you used generlisation task spectrums
-  	
+  	- make sure you used generlisation task spectrums  	
 	
 ### Evaluation Scoring
 
