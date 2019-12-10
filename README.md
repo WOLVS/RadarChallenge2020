@@ -16,13 +16,13 @@ RadarChallenge 2020 @ chongqi, Nov, 2020
   	`` <spectrumDiagram classification name> <class_name> <confidence>  ``
   		
   	  -example1: ".txt"
-             1_December_2017 Dataset1P36A01R01 1 0.92	       
+	       1_December_2017 Dataset1P36A01R01 1 0.92	       
   	       1_December_2017 Dataset1P36A01R01 2 0.98	       
   	       1_December_2017 Dataset1P36A01R01 3 0.43	       
   	       1_December_2017 Dataset1P36A01R01 4 0.20	       
   	       1_December_2017 Dataset1P36A01R01 5 0.00
 	       1_December_2017 Dataset1P36A01R01 6 0.00 
- ### class name vs numbering
+ ### Class name vs numbering
  - class 1: walk back/forth
  - class 2: sit on a chair
  - class 3: stand up
@@ -45,7 +45,7 @@ RadarChallenge 2020 @ chongqi, Nov, 2020
 		 gener_spectrum1 4 0.20
 		 gener_spectrum1 5 0.00
 		 gener_spectrum1 6 0.00 
- ### class name vs numbering
+ ### Class name vs numbering
  - class 1: walk back/forth
  - class 2: sit on a chair
  - class 3: stand up
