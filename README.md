@@ -4,11 +4,11 @@ RadarChallenge 2020 @ chongqi, Nov, 2020
 ### Download test file generalisation.zip
 ### Provide prediction for those test data with the following formate
 
-- submission.cvs
+- submission.csv
 		
 
   
- ### format in  **submission.cvs**
+ ### format in  **submission.csv**
   
   	`` <case file name> <predicted class>   ``
   		
