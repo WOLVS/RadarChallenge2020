@@ -1,76 +1,41 @@
 # RadarChallenge2020 team
 RadarChallenge 2020 @ chongqi, Nov, 2020
 
+### Download test file generalisation.zip
+### Provide prediction for those test data with the following formate
 
-### Submission Styles
-
-- radar2020_testSubmission.zip
-
-		- classification_results.txt
-		- generalisation_results.txt
-	
+- radar2020.cvs
+		
 
   
- ### Classification task - format in  **classification_results.txt**
+ ### format in  **radar2020.cvs**
   
-  	`` <spectrumDiagram classification name> <class_name> <confidence>  ``
+  	`` <case file name> <predicted class>   ``
   		
-  	  -example1: ".txt"
-	       1_December_2017 Dataset1P36A01R01 1 0.92	       
-  	       1_December_2017 Dataset1P36A01R01 2 0.98	       
-  	       1_December_2017 Dataset1P36A01R01 3 0.43	       
-  	       1_December_2017 Dataset1P36A01R01 4 0.20	       
-  	       1_December_2017 Dataset1P36A01R01 5 0.00
-	       1_December_2017 Dataset1P36A01R01 6 0.00 
- ### Class name vs numbering
+  	  -example1: "radar2020.cvs"
+	       case, class
+	        1  ,  3
+		2  ,  4
+		3  ,  1
+		......
+		100 , 1
+ 
+	
+### Evaluation Scoring
+
+1. **Radar Challenge  Task**
+	- average AP mAP=1/N  ∑[AP]_i
+	*Refer to paper XXXX for understand how to caculate AP 
+	
+2. **Final Score**
+	- Final score:    average mAP
+	Higest mAP  is declared winner of this challenge.
+	
+	 ### Class name vs numbering
  - class 1: walk back/forth
  - class 2: sit on a chair
  - class 3: stand up
  - class 4: bend downC
  - class 5: drink from cup while standing
  - class 6: frontal fall
-   	Tips:
-  		
-  	- make sure seperated the coloum using a space
-  
- ### Generalisation tasks - format in **generalisation_results.txt**
-
-  `` <spectrumDiagram classification name> <class_name> <confidence>  ``
-  		
-  	-example1: ".txt'
-	
-	         gener_spectrum1 1 0.92 
-		 gener_spectrum1 2 0.98
-		 gener_spectrum1 3 0.43
-		 gener_spectrum1 4 0.20
-		 gener_spectrum1 5 0.00
-		 gener_spectrum1 6 0.00 
- ### Class name vs numbering
- - class 1: walk back/forth
- - class 2: sit on a chair
- - class 3: stand up
- - class 4: bend down
- - class 5: drink from cup while standing
- - class 6: frontal fall
-
-Tips:
-  		
-  	- make sure you used generlisation task spectrums  	
-	
-### Evaluation Scoring
-
-1. **Radar Challenge Classification Task**
-	- average AP mAP=1/N  ∑[AP]_i
-	*Refer to paper XXXX for understand how to caculate AP 
-2. **Radar Challenge Generalization Task**
-	- Deviation score per class above or below tolerance (+/-5%) will be reported
-		**Highest mAP with lowest deviation score will be declared winner of this sub-challenge***
-
-	*For example: Lets say tolerance is 10%, then if your algorithm in classification gives an mAP/class of 30% then your generalization should be with in the tolerance range, i.e., 27%<=mAP/class<=33%, in this scenario your deviation will be zero. However, anything below or above will be penalized. Lets say if your algorithm scores 25% on generalization data then your deviation will be 2% which will be reported.*
-	
-3. **Final Score**
-	- Final score:   0.6 * mAPd + 0.4 * mAPg 
-	
-
-  		
-  	
+   
