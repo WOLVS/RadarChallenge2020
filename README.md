@@ -4,11 +4,11 @@ RadarChallenge 2020 @ chongqi, Nov, 2020
 ### Download test file generalisation.zip
 ### Provide prediction for those test data with the following formate
 
-- radar2020.cvs
+- submission.cvs
 		
 
   
- ### format in  **radar2020.cvs**
+ ### format in  **submission.cvs**
   
   	`` <case file name> <predicted class>   ``
   		
@@ -25,8 +25,7 @@ RadarChallenge 2020 @ chongqi, Nov, 2020
 
 1. **Radar Challenge  Task**
 	- average AP mAP=1/N  ∑[AP]_i
-	*Refer to paper XXXX for understand how to caculate AP 
-	
+		
 2. **Final Score**
 	- Final score:    average mAP
 	Higest mAP  is declared winner of this challenge.
